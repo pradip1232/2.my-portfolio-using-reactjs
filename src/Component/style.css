@@ -1,0 +1,43 @@
+/* Custom Navbar Styles */
+
+.navbar-brand {
+    font-family: 'Cursive', sans-serif;
+    font-size: 1.5rem;
+}
+
+.navbar-custom {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: fixed!important;
+    width: 100%!important;
+}
+
+.nav-link.active {
+    color: #fff !important;
+    border-bottom: 2px solid #fff;
+}
+
+@media (max-width: 992px) {
+    .navbar-nav {
+        text-align: center;
+    }
+}
+
+
+.home-container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.home-container h1,
+.home-container p {
+    margin-bottom: 20px;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.view-my-work-btn{
+    color: red;
+}
