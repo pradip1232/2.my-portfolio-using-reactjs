@@ -1,6 +1,7 @@
 {
   "name": "beastreact",
   "version": "0.1.0",
+  "homepage": "https://pradip1232.github.io/2.my-portfolio-using-reactjs",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.13.0",
@@ -13,6 +14,7 @@
     "animate.css": "^4.1.1",
     "bootstrap": "^5.3.3",
     "framer-motion": "^11.3.21",
+    "gh-pages": "^6.1.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.25.1",
@@ -24,7 +26,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
