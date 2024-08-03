@@ -3,6 +3,13 @@ import { Container, Grid, Typography, Box } from '@mui/material';
 import { styled } from '@mui/system';
 import { keyframes } from '@emotion/react';
 import homeImage from '../assets/Images/23502739.jpg';  // Correctly import the image
+import Hero from './Hero';
+import Skills from './Skills';
+import Projects from './Projects';
+import Experience from './Experience';
+import Testimonials from './Testimonials';
+import Blog from './Blog';
+import ContactHome from './ContactHome';
 
 const fadeInLeft = keyframes`
   from {
@@ -54,6 +61,15 @@ export default function Home() {
           </AnimatedBoxRight>
         </Grid>
       </Grid>
+     
+      <Hero />
+      <Skills />
+      <Projects />
+      <Experience />
+      {/* <Education /> */}
+      <Testimonials />
+      <Blog />
+      <ContactHome />
     </Container>
   );
 }

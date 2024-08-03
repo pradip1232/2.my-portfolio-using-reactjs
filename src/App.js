@@ -32,14 +32,14 @@ function App() {
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </div>
-      <Hero />
+      {/* <Hero />
       <Skills />
       <Projects />
       <Experience />
-      {/* <Education /> */}
+       <Education /> 
       <Testimonials />
       <Blog />
-      <ContactHome />
+      <ContactHome /> */}
       <Footer />
     </Router>
   );

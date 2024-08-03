@@ -2,8 +2,8 @@ import React from 'react';
 
 export default function Contact() {
   return (
-    <div className="container mt-5">
-      <h1>Contact Me</h1>
+    <div className="container">
+      <h1 className=''>Contact Me</h1>
       <p>If you have any questions or want to reach out, feel free to use the form below or connect with me on LinkedIn or GitHub.</p>
       
       <form>
