@@ -16,7 +16,7 @@ const Hero = () => {
         transition={{ duration: 0.5 }}
       >
         <Typography variant="h3" component="h1" gutterBottom>
-          Hi, I'm [Your Name]
+          Hi, I'm Beast Developer,
         </Typography>
         <Typography variant="h5" component="h2" gutterBottom>
           A Passionate Full Stack Developer
