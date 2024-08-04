@@ -1,7 +1,6 @@
 {
   "name": "beastreact",
   "version": "0.1.0",
-  "homepage": "https://pradip1232.github.io/2.my-portfolio-using-reactjs",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.13.0",
@@ -22,6 +21,9 @@
     "react-scripts": "5.0.1",
     "react-ui-animate": "^3.3.3",
     "web-vitals": "^2.1.4"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.17.12"
   },
   "scripts": {
     "start": "react-scripts start",

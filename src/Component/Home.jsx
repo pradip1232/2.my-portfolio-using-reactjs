@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Grid, Typography, Box } from '@mui/material';
+import { Container, Grid,  Box } from '@mui/material';
 import { styled } from '@mui/system';
 import { keyframes } from '@emotion/react';
 import homeImage from '../assets/Images/23502739.jpg';  // Correctly import the image
