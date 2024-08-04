@@ -19,7 +19,7 @@ const Hero = () => {
           Hi, I'm [Your Name]
         </Typography>
         <Typography variant="h5" component="h2" gutterBottom>
-          A Passionate Frontend Developer
+          A Passionate Full Stack Developer
         </Typography>
         <Button 
           variant="contained" 
