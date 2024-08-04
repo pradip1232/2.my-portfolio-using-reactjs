@@ -66,7 +66,7 @@ export default function Home() {
       <Skills />
       <Projects />
       <Experience />
-      {/* <Education /> */}
+     
       <Testimonials />
       <Blog />
       <ContactHome />

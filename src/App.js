@@ -10,14 +10,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'animate.css/animate.min.css';
 import Footer from './Component/Footer';
-import Hero from './Component/Hero';
-import Skills from './Component/Skills';
-import Projects from './Component/Projects';
-import Experience from './Component/Experience';
-import Education from './Component/Education';
-import Testimonials from './Component/Testimonials';
-import Blog from './Component/Blog';
-import ContactHome from './Component/ContactHome';
+
 
 
 
