@@ -86,7 +86,8 @@ export default function About() {
             Contact Information
           </h2>
           <p className="section-content animate__animated animate__fadeInUp">
-            You can reach me at: <a>755201pradip@gmail.com</a>
+            You can reach me at: 
+            <a href="mailto:755201pradip@gmail.com">755201pradip@gmail.com</a>
           </p>
           <p className="section-content animate__animated animate__fadeInUp">
             Follow me on LinkedIn:{" "}
