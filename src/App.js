@@ -10,6 +10,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'animate.css/animate.min.css';
 import Footer from './Component/Footer';
+import ModalNotification from './Component/ModalNotification';
 
 
 
@@ -33,6 +34,7 @@ function App() {
       <Testimonials />
       <Blog />
       <ContactHome /> */}
+      <ModalNotification />
       <Footer />
     </Router>
   );
