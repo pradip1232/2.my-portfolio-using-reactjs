@@ -2,6 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import { Modal, Button } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { CheckCircle } from 'react-bootstrap-icons';
 
 const ModalNotification = () => {
   const [show, setShow] = useState(false);
@@ -15,7 +16,7 @@ const ModalNotification = () => {
       const timer = setTimeout(() => {
         setShow(false);
         localStorage.setItem('hasSeenModal', 'true');
-      }, 3000);
+      }, 5000);
 
       return () => clearTimeout(timer);
     }
@@ -31,7 +32,9 @@ const ModalNotification = () => {
     >
       <Modal.Body>
         <div className="text-center">
+          <CheckCircle size={40} color="green" />
           <h5>Currently, I am working on this website</h5>
+          <h6>Thank You For Visiting!!</h6>
           <Button variant="primary" onClick={() => setShow(false)}>Close</Button>
         </div>
       </Modal.Body>
