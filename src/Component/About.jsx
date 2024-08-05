@@ -80,7 +80,7 @@ export default function About() {
         </div>
       </div>
 
-      {/* <div className="row section">
+      <div className="row section">
         <div className="col-12">
           <h2 className="section-title animate__animated animate__fadeInUp">
             Contact Information
@@ -100,7 +100,7 @@ export default function About() {
             </a>
           </p>
         </div>
-      </div> */}
+      </div>
     </div>
   );
 }
