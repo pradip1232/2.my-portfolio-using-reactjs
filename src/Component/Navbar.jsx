@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './style.css';
-// index.js or App.js
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
     
 
