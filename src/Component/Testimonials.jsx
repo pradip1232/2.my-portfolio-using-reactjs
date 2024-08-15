@@ -1,10 +1,30 @@
-import React from 'react';
-import { Box, Typography, Container, Grid, Card, CardContent } from '@mui/material';
-import { motion } from 'framer-motion';
+import React from "react";
+import {
+  Box,
+  Typography,
+  Container,
+  Grid,
+  Card,
+  CardContent,
+} from "@mui/material";
+import { motion } from "framer-motion";
 
 const testimonials = [
-  { name: 'Client A', feedback: 'Great work! Highly recommended.', role: 'CEO, Company A' },
-  { name: 'Client B', feedback: 'Very professional and skilled.', role: 'CTO, Company B' },
+  {
+    name: "Client A",
+    feedback: "Great work! Highly recommended.",
+    role: "CEO, Company A",
+  },
+  {
+    name: "Client B",
+    feedback: "Very professional and skilled.",
+    role: "CTO, Company B",
+  },
+  {
+    name: "Client C",
+    feedback: "Very professional and skilled.",
+    role: "CTO, Company C",
+  },
   // Add more testimonials here
 ];
 
@@ -19,7 +39,7 @@ const Testimonials = () => {
       <Grid container spacing={3}>
         {testimonials.map((testimonial, index) => (
           <Grid item xs={12} sm={6} md={4} key={index}>
-            <Card 
+            <Card
               component={motion.div}
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
