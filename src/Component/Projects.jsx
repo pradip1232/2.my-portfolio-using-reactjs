@@ -12,18 +12,20 @@ import { motion } from "framer-motion";
 
 const projects = [
   {
-    name: "Project One",
-    description: "A cool project",
+    name: "E-commerce Website",
+    description:
+      "A comprehensive online store with payment integration and product management.",
     image: "https://via.placeholder.com/150",
   },
   {
-    name: "Project Two",
-    description: "Another cool project",
+    name: "Education Website",
+    description:
+      "A platform for online courses with user authentication and content management.",
     image: "https://via.placeholder.com/150",
   },
   {
-    name: "Project Three",
-    description: "Another cool project",
+    name: "Portfolio Website",
+    description: "A personal portfolio website showcasing skills and projects.",
     image: "https://via.placeholder.com/150",
   },
   // Add more projects here
