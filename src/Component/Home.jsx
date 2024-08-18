@@ -9,7 +9,8 @@ import Experience from "./Experience";
 import Testimonials from "./Testimonials";
 import Blog from "./Blog";
 import ContactHome from "./ContactHome";
-import Typical from "react-typical"; // Import the typing animation library
+import Typical from "react-typical";
+// import ReactTypingEffect from "react-typing-effect";
 
 // Define animations
 const fadeInLeft = keyframes`
