@@ -9,8 +9,7 @@ import Experience from "./Experience";
 import Testimonials from "./Testimonials";
 import Blog from "./Blog";
 import ContactHome from "./ContactHome";
-import Typical from "react-typical";
-// import ReactTypingEffect from "react-typing-effect";
+import TypingEffect from "react-typing-effect";
 
 // Define animations
 const fadeInLeft = keyframes`
@@ -51,20 +50,19 @@ export default function Home() {
         <Grid item xs={12} md={6}>
           <AnimatedBoxLeft>
             <Typography variant="h3" component="h1" gutterBottom>
-              Welcome to my website
+              Welcome   to my website
             </Typography>
             <Typography variant="body1" component="h2">
-              <Typical
-                steps={[
+              <TypingEffect
+                text={[
                   "Beast developer",
-                  5000,
                   "Full Stack Engineer",
-                  3000,
                   "Creative Coder",
-                  3000,
                 ]}
-                loop={Infinity}
-                wrapper="span"
+                speed={100}
+                eraseSpeed={50}
+                typingDelay={1000}
+                eraseDelay={1000}
               />
             </Typography>
           </AnimatedBoxLeft>
