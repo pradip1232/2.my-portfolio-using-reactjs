@@ -52,13 +52,13 @@ const ModalNotification = () => {
               right: 20,
               fontSize: "1.5rem",
               fontWeight: "bold",
-              color: "red",
+              color: "yellow",
             }}
           >
             {countdown}
           </div>
           <CheckCircle size={40} color="green" />
-          <h5>Currently, I am working on this website</h5>
+          <h5>Currently, I am working on this my website</h5>
           <h6>Thank You For Visiting!!</h6>
           <Button variant="primary" onClick={() => setShow(false)}>
             Close
